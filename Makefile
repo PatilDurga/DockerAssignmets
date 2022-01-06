@@ -1,5 +1,5 @@
 pull:
-  docker pull image_name 
+  	docker pull image_name 
 build:
 	docker build -t simple-mysql-test .
 	
