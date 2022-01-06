@@ -1,4 +1,4 @@
-Assignment-2:  Dockerfile-Build image with loaded MySQL schema .
+Assignment-2 :  Dockerfile-Build image with loaded MySQL schema .
 
         In this assignment we have to write Dockerfile from which we can build our require image to start the container to achive our target. Our target is whenever the container start we should see the database having students table containing your roll number, name and course.
 I have used mysql image to build my customize image and to start the container.
