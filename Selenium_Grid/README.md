@@ -39,7 +39,20 @@ To stop the grid and cleanup the created containers, run
 
     docker-compose down
     
+# To set up a parallel exsecution with docker-compose  
+It is possible in two diffrent ways 
+First By Updating docker-compose file using following command 
 
+            - NODE_MAX_INSTANCES = Number of instances
+            - NODE_MAX_SESSIONS= Number of sessions 
+
+By using Command 
+            
+       docker-compose up  --scale  chrome=4
+       
+        docker-compose up  --scale  firefox=3
+       
+           
 
 
 
