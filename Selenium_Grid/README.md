@@ -1,5 +1,5 @@
 
-Docker images for Selenium Standalone Server Hub and Node configurations with Chrome and Firefox 
+# Docker images for Selenium Standalone Server Hub and Node configurations with Chrome and Firefox 
 
 There are different ways to run the images and create a grid, check the following options.
 Using docker networking
@@ -23,7 +23,7 @@ When you are done using the grid and the containers have exited, the network can
     
 This is using Commandline / Command Prompt But there is one more way using which we can create Selenium Grid / Hub - Node Structure & that is using  
 
-      Via docker-compse
+# Via docker-compse
       
 The most simple way to start a grid is with docker-compose , use the snippet provided into docker-compose.yaml, 
 Save it locally and in the same folder run 
