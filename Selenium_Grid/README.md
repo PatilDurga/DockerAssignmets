@@ -2,7 +2,7 @@
 # Docker images for Selenium Standalone Server Hub and Node configurations with Chrome and Firefox 
 
 There are different ways to run the images and create a grid, check the following options.
-Using docker networking
+# Using docker networking
 
 With this option, the hub and nodes will be created in the same network and they will recognize each other by their container name. A docker network needs to be created as a first step.
 
@@ -31,8 +31,8 @@ Save it locally and in the same folder run
     docker-compose up 
 
 We can also use
-# To execute this docker-compose yml file use `docker-compose -f <file_name> up`
-# Add the `-d` flag at the end for detached execution
+ To execute this docker-compose yml file use `docker-compose -f <file_name> up`
+ Add the `-d` flag at the end for detached execution
 
 
 To stop the grid and cleanup the created containers, run 
